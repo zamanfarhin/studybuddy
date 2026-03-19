@@ -1,0 +1,181 @@
+chunk_size,top_k,model,question,expected_type,decision,response_time_s,response_length
+256,1,gpt-4o-mini,What is machine learning?,memory,memory,10.27,2017
+256,1,gpt-4o-mini,Explain the concept of photosynthesis.,memory,memory,10.34,1742
+256,1,gpt-4o-mini,What is the Pythagorean theorem?,memory,memory,5.32,599
+256,1,gpt-4o-mini,How does the internet work?,memory,memory,12.66,2561
+256,1,gpt-4o-mini,What does the document say about the main topic?,retrieve,retrieve,4.9,604
+256,1,gpt-4o-mini,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,6.26,1265
+256,1,gpt-4o-mini,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,8.19,1312
+256,1,gpt-4o-mini,How does the content in my document relate to broader scient...,hybrid,hybrid,10.44,2301
+256,1,gpt-4o-mini,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,14.13,3135
+256,1,gpt-4o-mini,Compare what my document says to general knowledge on the to...,hybrid,hybrid,12.97,2897
+256,1,gpt-4o,What is machine learning?,memory,memory,7.4,1724
+256,1,gpt-4o,Explain the concept of photosynthesis.,memory,memory,6.08,1480
+256,1,gpt-4o,What is the Pythagorean theorem?,memory,memory,5.08,616
+256,1,gpt-4o,How does the internet work?,memory,memory,12.39,2672
+256,1,gpt-4o,What does the document say about the main topic?,retrieve,retrieve,3.17,503
+256,1,gpt-4o,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,3.7,650
+256,1,gpt-4o,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,5.0,977
+256,1,gpt-4o,How does the content in my document relate to broader scient...,hybrid,hybrid,9.63,1962
+256,1,gpt-4o,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,11.16,2110
+256,1,gpt-4o,Compare what my document says to general knowledge on the to...,hybrid,hybrid,13.76,1970
+256,3,gpt-4o-mini,What is machine learning?,memory,memory,7.15,1652
+256,3,gpt-4o-mini,Explain the concept of photosynthesis.,memory,memory,12.4,1810
+256,3,gpt-4o-mini,What is the Pythagorean theorem?,memory,memory,4.52,763
+256,3,gpt-4o-mini,How does the internet work?,memory,memory,13.16,2590
+256,3,gpt-4o-mini,What does the document say about the main topic?,retrieve,retrieve,5.32,893
+256,3,gpt-4o-mini,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,7.17,1756
+256,3,gpt-4o-mini,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,8.55,1481
+256,3,gpt-4o-mini,How does the content in my document relate to broader scient...,hybrid,retrieve,8.65,2233
+256,3,gpt-4o-mini,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,16.28,3491
+256,3,gpt-4o-mini,Compare what my document says to general knowledge on the to...,hybrid,hybrid,14.43,3012
+256,3,gpt-4o,What is machine learning?,memory,memory,9.83,1772
+256,3,gpt-4o,Explain the concept of photosynthesis.,memory,memory,12.39,2008
+256,3,gpt-4o,What is the Pythagorean theorem?,memory,memory,3.89,540
+256,3,gpt-4o,How does the internet work?,memory,memory,9.52,2244
+256,3,gpt-4o,What does the document say about the main topic?,retrieve,retrieve,4.73,811
+256,3,gpt-4o,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,8.06,1363
+256,3,gpt-4o,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,7.27,1453
+256,3,gpt-4o,How does the content in my document relate to broader scient...,hybrid,hybrid,9.62,2126
+256,3,gpt-4o,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,15.19,3033
+256,3,gpt-4o,Compare what my document says to general knowledge on the to...,hybrid,hybrid,11.53,2694
+256,5,gpt-4o-mini,What is machine learning?,memory,memory,13.51,1771
+256,5,gpt-4o-mini,Explain the concept of photosynthesis.,memory,memory,11.98,1971
+256,5,gpt-4o-mini,What is the Pythagorean theorem?,memory,memory,5.12,630
+256,5,gpt-4o-mini,How does the internet work?,memory,memory,10.04,2807
+256,5,gpt-4o-mini,What does the document say about the main topic?,retrieve,retrieve,9.32,969
+256,5,gpt-4o-mini,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,10.95,2409
+256,5,gpt-4o-mini,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,9.14,1680
+256,5,gpt-4o-mini,How does the content in my document relate to broader scient...,hybrid,hybrid,12.16,2616
+256,5,gpt-4o-mini,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,16.08,3173
+256,5,gpt-4o-mini,Compare what my document says to general knowledge on the to...,hybrid,hybrid,16.38,3555
+256,5,gpt-4o,What is machine learning?,memory,memory,9.73,1691
+256,5,gpt-4o,Explain the concept of photosynthesis.,memory,memory,10.75,2297
+256,5,gpt-4o,What is the Pythagorean theorem?,memory,memory,5.4,656
+256,5,gpt-4o,How does the internet work?,memory,memory,13.13,2736
+256,5,gpt-4o,What does the document say about the main topic?,retrieve,retrieve,4.53,664
+256,5,gpt-4o,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,10.52,2134
+256,5,gpt-4o,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,9.33,1756
+256,5,gpt-4o,How does the content in my document relate to broader scient...,hybrid,hybrid,12.49,2216
+256,5,gpt-4o,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,11.36,2530
+256,5,gpt-4o,Compare what my document says to general knowledge on the to...,hybrid,hybrid,11.88,2994
+512,1,gpt-4o-mini,What is machine learning?,memory,memory,8.36,1896
+512,1,gpt-4o-mini,Explain the concept of photosynthesis.,memory,memory,9.05,1737
+512,1,gpt-4o-mini,What is the Pythagorean theorem?,memory,memory,6.06,649
+512,1,gpt-4o-mini,How does the internet work?,memory,memory,10.53,2597
+512,1,gpt-4o-mini,What does the document say about the main topic?,retrieve,retrieve,12.75,874
+512,1,gpt-4o-mini,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,11.42,1578
+512,1,gpt-4o-mini,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,8.19,1376
+512,1,gpt-4o-mini,How does the content in my document relate to broader scient...,hybrid,hybrid,8.4,2169
+512,1,gpt-4o-mini,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,13.51,2849
+512,1,gpt-4o-mini,Compare what my document says to general knowledge on the to...,hybrid,hybrid,18.54,2524
+512,1,gpt-4o,What is machine learning?,memory,memory,8.04,1669
+512,1,gpt-4o,Explain the concept of photosynthesis.,memory,memory,13.16,1967
+512,1,gpt-4o,What is the Pythagorean theorem?,memory,memory,6.11,712
+512,1,gpt-4o,How does the internet work?,memory,memory,15.49,2806
+512,1,gpt-4o,What does the document say about the main topic?,retrieve,retrieve,6.53,844
+512,1,gpt-4o,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,11.99,1661
+512,1,gpt-4o,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,7.27,1511
+512,1,gpt-4o,How does the content in my document relate to broader scient...,hybrid,hybrid,10.54,2288
+512,1,gpt-4o,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,15.26,2743
+512,1,gpt-4o,Compare what my document says to general knowledge on the to...,hybrid,hybrid,13.25,2221
+512,3,gpt-4o-mini,What is machine learning?,memory,memory,7.73,1780
+512,3,gpt-4o-mini,Explain the concept of photosynthesis.,memory,hybrid,9.7,2018
+512,3,gpt-4o-mini,What is the Pythagorean theorem?,memory,memory,8.02,688
+512,3,gpt-4o-mini,How does the internet work?,memory,memory,10.03,2539
+512,3,gpt-4o-mini,What does the document say about the main topic?,retrieve,retrieve,8.29,1417
+512,3,gpt-4o-mini,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,7.28,1837
+512,3,gpt-4o-mini,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,8.59,1903
+512,3,gpt-4o-mini,How does the content in my document relate to broader scient...,hybrid,hybrid,10.58,2896
+512,3,gpt-4o-mini,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,17.42,3688
+512,3,gpt-4o-mini,Compare what my document says to general knowledge on the to...,hybrid,hybrid,12.55,2976
+512,3,gpt-4o,What is machine learning?,memory,memory,8.6,2012
+512,3,gpt-4o,Explain the concept of photosynthesis.,memory,memory,9.01,1851
+512,3,gpt-4o,What is the Pythagorean theorem?,memory,memory,4.8,650
+512,3,gpt-4o,How does the internet work?,memory,memory,15.28,2524
+512,3,gpt-4o,What does the document say about the main topic?,retrieve,retrieve,6.13,1042
+512,3,gpt-4o,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,7.83,1570
+512,3,gpt-4o,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,7.63,1710
+512,3,gpt-4o,How does the content in my document relate to broader scient...,hybrid,hybrid,9.93,2184
+512,3,gpt-4o,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,14.95,3234
+512,3,gpt-4o,Compare what my document says to general knowledge on the to...,hybrid,hybrid,16.17,2703
+512,5,gpt-4o-mini,What is machine learning?,memory,memory,6.86,1467
+512,5,gpt-4o-mini,Explain the concept of photosynthesis.,memory,memory,10.95,1965
+512,5,gpt-4o-mini,What is the Pythagorean theorem?,memory,memory,4.61,640
+512,5,gpt-4o-mini,How does the internet work?,memory,memory,10.24,2567
+512,5,gpt-4o-mini,What does the document say about the main topic?,retrieve,retrieve,5.23,1247
+512,5,gpt-4o-mini,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,8.39,1965
+512,5,gpt-4o-mini,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,9.67,2081
+512,5,gpt-4o-mini,How does the content in my document relate to broader scient...,hybrid,hybrid,13.62,2803
+512,5,gpt-4o-mini,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,15.37,3473
+512,5,gpt-4o-mini,Compare what my document says to general knowledge on the to...,hybrid,hybrid,10.89,2915
+512,5,gpt-4o,What is machine learning?,memory,memory,8.95,2088
+512,5,gpt-4o,Explain the concept of photosynthesis.,memory,memory,8.96,2010
+512,5,gpt-4o,What is the Pythagorean theorem?,memory,memory,3.79,679
+512,5,gpt-4o,How does the internet work?,memory,memory,10.44,2166
+512,5,gpt-4o,What does the document say about the main topic?,retrieve,retrieve,5.02,903
+512,5,gpt-4o,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,7.03,1700
+512,5,gpt-4o,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,9.16,1997
+512,5,gpt-4o,How does the content in my document relate to broader scient...,hybrid,hybrid,10.74,2143
+512,5,gpt-4o,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,14.8,2807
+512,5,gpt-4o,Compare what my document says to general knowledge on the to...,hybrid,hybrid,15.22,3076
+1024,1,gpt-4o-mini,What is machine learning?,memory,memory,6.73,1842
+1024,1,gpt-4o-mini,Explain the concept of photosynthesis.,memory,hybrid,8.58,2152
+1024,1,gpt-4o-mini,What is the Pythagorean theorem?,memory,memory,3.67,634
+1024,1,gpt-4o-mini,How does the internet work?,memory,memory,9.97,2685
+1024,1,gpt-4o-mini,What does the document say about the main topic?,retrieve,retrieve,7.37,1677
+1024,1,gpt-4o-mini,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,6.7,1292
+1024,1,gpt-4o-mini,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,5.06,1348
+1024,1,gpt-4o-mini,How does the content in my document relate to broader scient...,hybrid,hybrid,10.45,2884
+1024,1,gpt-4o-mini,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,14.47,3105
+1024,1,gpt-4o-mini,Compare what my document says to general knowledge on the to...,hybrid,hybrid,17.32,2880
+1024,1,gpt-4o,What is machine learning?,memory,memory,11.83,1789
+1024,1,gpt-4o,Explain the concept of photosynthesis.,memory,memory,12.18,1884
+1024,1,gpt-4o,What is the Pythagorean theorem?,memory,memory,5.82,822
+1024,1,gpt-4o,How does the internet work?,memory,memory,13.53,2544
+1024,1,gpt-4o,What does the document say about the main topic?,retrieve,retrieve,6.04,895
+1024,1,gpt-4o,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,6.86,985
+1024,1,gpt-4o,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,12.08,1310
+1024,1,gpt-4o,How does the content in my document relate to broader scient...,hybrid,hybrid,9.73,2189
+1024,1,gpt-4o,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,13.72,2615
+1024,1,gpt-4o,Compare what my document says to general knowledge on the to...,hybrid,hybrid,15.56,2613
+1024,3,gpt-4o-mini,What is machine learning?,memory,memory,7.32,1730
+1024,3,gpt-4o-mini,Explain the concept of photosynthesis.,memory,hybrid,12.26,1870
+1024,3,gpt-4o-mini,What is the Pythagorean theorem?,memory,hybrid,5.31,851
+1024,3,gpt-4o-mini,How does the internet work?,memory,memory,9.65,2414
+1024,3,gpt-4o-mini,What does the document say about the main topic?,retrieve,retrieve,4.59,1001
+1024,3,gpt-4o-mini,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,7.5,1962
+1024,3,gpt-4o-mini,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,9.64,2141
+1024,3,gpt-4o-mini,How does the content in my document relate to broader scient...,hybrid,hybrid,12.01,2714
+1024,3,gpt-4o-mini,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,12.49,3396
+1024,3,gpt-4o-mini,Compare what my document says to general knowledge on the to...,hybrid,hybrid,10.98,3351
+1024,3,gpt-4o,What is machine learning?,memory,memory,8.88,1732
+1024,3,gpt-4o,Explain the concept of photosynthesis.,memory,memory,15.32,2116
+1024,3,gpt-4o,What is the Pythagorean theorem?,memory,memory,4.14,699
+1024,3,gpt-4o,How does the internet work?,memory,memory,12.39,2461
+1024,3,gpt-4o,What does the document say about the main topic?,retrieve,retrieve,5.94,930
+1024,3,gpt-4o,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,8.57,1948
+1024,3,gpt-4o,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,7.18,1782
+1024,3,gpt-4o,How does the content in my document relate to broader scient...,hybrid,hybrid,8.74,2386
+1024,3,gpt-4o,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,19.66,3254
+1024,3,gpt-4o,Compare what my document says to general knowledge on the to...,hybrid,hybrid,15.58,3144
+1024,5,gpt-4o-mini,What is machine learning?,memory,memory,9.14,2004
+1024,5,gpt-4o-mini,Explain the concept of photosynthesis.,memory,hybrid,20.91,2601
+1024,5,gpt-4o-mini,What is the Pythagorean theorem?,memory,memory,5.42,761
+1024,5,gpt-4o-mini,How does the internet work?,memory,memory,10.65,2294
+1024,5,gpt-4o-mini,What does the document say about the main topic?,retrieve,retrieve,5.85,1043
+1024,5,gpt-4o-mini,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,9.83,2285
+1024,5,gpt-4o-mini,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,11.24,2116
+1024,5,gpt-4o-mini,How does the content in my document relate to broader scient...,hybrid,hybrid,21.51,2770
+1024,5,gpt-4o-mini,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,16.28,4237
+1024,5,gpt-4o-mini,Compare what my document says to general knowledge on the to...,hybrid,hybrid,16.17,3788
+1024,5,gpt-4o,What is machine learning?,memory,memory,6.88,1844
+1024,5,gpt-4o,Explain the concept of photosynthesis.,memory,memory,8.07,2077
+1024,5,gpt-4o,What is the Pythagorean theorem?,memory,memory,5.33,772
+1024,5,gpt-4o,How does the internet work?,memory,memory,9.72,2337
+1024,5,gpt-4o,What does the document say about the main topic?,retrieve,retrieve,5.71,1014
+1024,5,gpt-4o,"According to the PDF, what are the key findings or main idea...",retrieve,retrieve,7.18,1902
+1024,5,gpt-4o,"Based on what I uploaded, summarize the main points.",retrieve,retrieve,7.79,1849
+1024,5,gpt-4o,How does the content in my document relate to broader scient...,hybrid,hybrid,11.37,2626
+1024,5,gpt-4o,Explain the concepts from the uploaded document in a broader...,hybrid,hybrid,9.87,2567
+1024,5,gpt-4o,Compare what my document says to general knowledge on the to...,hybrid,hybrid,12.45,3199
