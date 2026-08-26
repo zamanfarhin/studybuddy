@@ -1,6 +1,6 @@
 # StudyBuddy - Agentic RAG Study Assistant
 
-An intelligent study assistant that combines Retrieval-Augmented Generation (RAG) with an agentic decision layer to answer questions from your own uploaded documents or general knowledge — automatically choosing the best approach for each query.
+An intelligent study assistant that combines Retrieval-Augmented Generation (RAG) with an agentic decision layer to answer questions from your own uploaded documents or general knowledge; automatically choosing the best approach for each query. Built with AI-assisted development.
 
 ---
 
@@ -21,7 +21,6 @@ An intelligent study assistant that combines Retrieval-Augmented Generation (RAG
 - **OpenAI GPT-4o** — query classification and response generation
 - **ChromaDB** — vector store for document embeddings
 - **PyMuPDF (fitz)** — PDF parsing and text extraction
-- **Claude Code** — AI-assisted development
 
 ---
 
